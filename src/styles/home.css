@@ -1,0 +1,148 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+}
+#tsparticles {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.commandPrompt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 12vh;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    overflow: hidden;
+
+}
+.commandTop {
+    background-color: #ccc;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-color: #ccc;
+    font-size: 3vh;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+}
+.commandBottom {
+    background-color: #141414;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 5px 5px 5px 5px;
+    white-space: nowrap;
+    word-wrap: break-word;
+
+
+}
+
+.typed-out{    
+    color: #0cc00f;
+    overflow: hidden;
+    font-size: 20px;
+    width: 0;
+    padding-left: 2%;
+    animation: 2s typing 2s forwards;
+
+}
+.typed-out2{    
+    color: #0cc00f;
+    overflow: hidden;
+    font-size: 20px;
+    width: 0;
+    padding-left: 2%;
+    animation: 2s typing 3s forwards;
+
+}
+.typed-out3{    
+    color: #0cc00f;
+    overflow: hidden;
+    font-size: 20px;
+    width: 0;
+    padding-left: 2%;
+    animation: 2s typing 4s forwards;
+
+}
+.typed-out4{    
+    color: #0cc00f;
+    overflow: hidden;
+    font-size: 20px;
+    width: 0;
+    padding-left: 2%;
+    animation: 2s typing 5s forwards;
+
+} 
+.typed-out5{    
+    color: #0cc00f;
+    overflow: hidden;
+    font-size: 20px;
+    width: 0;
+    padding-left: 2%;
+    animation: 2s typing 6s forwards;
+
+}
+.typed-out6{    
+    color: #0cc00f;
+    overflow: hidden;
+    font-size: 19px;
+    width: 0;
+    padding-left: 2%;
+    animation: 2s typing 7s forwards;
+
+}
+.typed-out7{    
+    color: #0cc00f;
+    overflow: hidden;
+    font-size: 19px;
+    width: 0;
+    padding-left: 2%;
+    animation: 2s typing 8s forwards;
+
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 97.5% }
+  }
+
+  @keyframes typings {
+    from { width: 0 }
+    to { width: 90% }
+  }
+
+.resumeButton {
+    margin-top: 5%;
+    width:20%;
+    align-self: center;
+    padding: 10px 0px 10px 0px;
+    border-radius: 12px;
+    background-color: #0cc00f;
+    font-weight: 700;
+    font-size: 16px;
+}
+.linkedInButton {
+    margin-top: 2%;
+    width:20%;
+    align-self: center;
+    padding: 10px 0px 10px 0px;
+    border-radius: 12px;
+    background-color: #0066ff;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.noSelect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
