@@ -60,7 +60,7 @@ function Projects (){
                 <div className='descTitle'>Description</div>
                 <div className='projectDescription'>User can create an interactive checkout system to accurately calculate a clients subtotal before checkout.</div>
                 <div className='descTitle'>Contributions</div>
-                <div className='projectDescription'>Utilized Vue and state management.</div>
+                <div className='projectDescription'>Utilized Angular and Angular Routing.</div>
                 <div className='deployButton' onClick={()=>{window.open("https://github.com/John310-SB")}}>View on Github</div>
             </div>
         </div>
