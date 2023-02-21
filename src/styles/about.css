@@ -30,18 +30,21 @@
     flex:1; 
     text-align: center;
     font-weight: 700;
-    background-color: #7ef388;
+    background-color: #11488b;
+    color: white;
     padding:5px;
     border-bottom: 1px solid black;
 }
+
 .answer {
     display: flex;
     flex-direction: column;
     margin: 5px 5px 5px 5px;
-    background-color: #dfdfdf !important;
+    background-color: #000 !important;
     border-radius: 12px;
     min-height: 75vh;
 }
+
 .noSelect {
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
@@ -50,32 +53,42 @@
           -ms-user-select: none; /* Internet Explorer/Edge */
               user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome, Edge, Opera and Firefox */
-  }
+}
 
 .opportunities{
-    margin: 3vh 25vw 5vh 25vw;
     text-align: center;
-    background-color: #7ef388;
+    background-color: #0cc00f;
     font-weight: 700;
     border-radius: 12px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
 .answer2 {
+    background-color: #ebebeb;
+    border-radius: 20px;
     padding: 12px;
     font-size: 18px;
     font-weight: 600;
 }
 
 .TimelineContent {
-    font-weight: 700;
+    font-weight: 600;
+    color: #fff;
+}
+
+.TimelineContentDate {
+    font-weight: 600;
+    color: #ccc;
 }
 
 .answer3Container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #ebebeb;
 }
+
 .skillTitles {
     text-align: center;
     display: flex;
@@ -98,11 +111,14 @@
     display: flex;
     flex-direction: column;
 }
+
 .skillIcon {
-    height: 8vw;
-    width: 8vw;
+    align-self: center;
+    height: 6vw;
+    width: 6vw;
     padding-top: 12px;
 }
+
 .iconText {
     text-align: center;
     font-weight: 700;
@@ -119,6 +135,7 @@
     height: 100%;
     width: 100%;
 }
+
 .hobbyRow {
     display: flex;
     flex-direction: row;
@@ -126,6 +143,7 @@
     border-radius: 12px;
     margin: 2px;
 }
+
 .hobbyImage {
     display: flex;
     height: 25vw;
@@ -133,6 +151,7 @@
     border-radius: 12px;
     margin:5px;
 }
+
 .hobbyDescription {
     display: flex;
     flex-direction: column;
@@ -140,11 +159,16 @@
     text-align: center;
     justify-content: center;
 }
+
 .answer4 {
     padding: 12px;
     font-size: 18px;
     font-weight: 600;
+    background-color:#ebebeb;
+    margin-top: 5px;
+    border-radius: 10px;
 }
+
 .answer4Title {
     padding: 12px;
     background-color: #ccc;
@@ -153,17 +177,20 @@
     border-bottom: 6px solid #adadad;
     border-radius: 12px;
 }
+
 .hobbyTitles {
  background-color: #ccc;
  font-size: 18px;
  font-weight: 600;
  margin-bottom: 10px;
 }
+
 .hobbyInfo {
     font-size: 16;
     font-weight: 600;
     margin-bottom: 20px;
 }
+
 .dot {
     color: green;
     background-color: green;

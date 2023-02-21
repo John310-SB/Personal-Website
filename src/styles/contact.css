@@ -1,25 +1,28 @@
 .contactContainer {
     display: grid;
     width: 100%;
-    height: 95vh;
+    height: 100vh;
     grid-template-areas: 
     "top top top"
     "map info info";
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 .contactTop {
     display: flex;
     grid-area: top;
     background-color: #000;
     justify-content: center;
 }
+
 .contactMap {
     grid-area: map;
     background-color: blue;
     background-image: url('../assets/hb.jpg');
     background-size: cover;
 }
+
 .contactInfo {
     display: flex;
     flex-direction: column;
@@ -29,22 +32,27 @@
     background-color: #1d1d1f;
     justify-content: center;
 }
+
 .connectImage {
     height:100%;
     width:auto;
 }
+
 .mapImage{
-    height:auto;
+    height:100%;
+    width: auto;
 }
+
 .contentBlocks {
     display: flex;
     align-items: center;
     padding:10px;
     padding-left: 20px;
 }
+
 .contactMeta {
     padding-left: 10px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color:#fff;
 }

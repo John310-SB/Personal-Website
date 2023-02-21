@@ -4,6 +4,7 @@
     justify-content: center;
     overflow-x: hidden;
 }
+
 #tsparticles {
     position: fixed;
     z-index: -1;
@@ -11,6 +12,7 @@
     height: 100%;
     overflow: hidden;
 }
+
 .commandPrompt {
     display: flex;
     flex-direction: column;
@@ -21,16 +23,17 @@
     overflow: hidden;
 
 }
+
 .commandTop {
-    background-color: #ccc;
+    background-color: #8d8d8d;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    border-color: #ccc;
-    font-size: 3vh;
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
-    padding: 5px 0px 5px 0px;
+    padding: 2px 0px 2px 0px;
 }
+
 .commandBottom {
     background-color: #141414;
     border-bottom-left-radius: 8px;
@@ -38,8 +41,6 @@
     padding: 5px 5px 5px 5px;
     white-space: nowrap;
     word-wrap: break-word;
-
-
 }
 
 .typed-out{    
@@ -49,8 +50,8 @@
     width: 0;
     padding-left: 2%;
     animation: 2s typing 2s forwards;
-
 }
+
 .typed-out2{    
     color: #0cc00f;
     overflow: hidden;
@@ -58,8 +59,8 @@
     width: 0;
     padding-left: 2%;
     animation: 2s typing 3s forwards;
-
 }
+
 .typed-out3{    
     color: #0cc00f;
     overflow: hidden;
@@ -67,8 +68,8 @@
     width: 0;
     padding-left: 2%;
     animation: 2s typing 4s forwards;
-
 }
+
 .typed-out4{    
     color: #0cc00f;
     overflow: hidden;
@@ -76,8 +77,8 @@
     width: 0;
     padding-left: 2%;
     animation: 2s typing 5s forwards;
-
 } 
+
 .typed-out5{    
     color: #0cc00f;
     overflow: hidden;
@@ -85,8 +86,8 @@
     width: 0;
     padding-left: 2%;
     animation: 2s typing 6s forwards;
-
 }
+
 .typed-out6{    
     color: #0cc00f;
     overflow: hidden;
@@ -94,8 +95,8 @@
     width: 0;
     padding-left: 2%;
     animation: 2s typing 7s forwards;
-
 }
+
 .typed-out7{    
     color: #0cc00f;
     overflow: hidden;
@@ -103,38 +104,80 @@
     width: 0;
     padding-left: 2%;
     animation: 2s typing 8s forwards;
-
 }
+
 @keyframes typing {
     from { width: 0 }
     to { width: 97.5% }
-  }
+}
 
-  @keyframes typings {
-    from { width: 0 }
-    to { width: 90% }
-  }
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    background-color: transparent;
+}
+
+.buttonSpacing {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    margin: 0px;
+}
 
 .resumeButton {
-    margin-top: 5%;
-    width:20%;
-    align-self: center;
-    padding: 10px 0px 10px 0px;
-    border-radius: 12px;
-    background-color: #0cc00f;
-    font-weight: 700;
-    font-size: 16px;
-}
-.linkedInButton {
-    margin-top: 2%;
-    width:20%;
-    align-self: center;
-    padding: 10px 0px 10px 0px;
-    border-radius: 12px;
-    background-color: #0066ff;
+    flex:1;
+    background-color: #292929;
     color: white;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 16px;
+    margin: 0px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    margin:4px;
+    border-radius: 20px;
+}
+
+.linkedInButton {
+    flex:1;
+    background-color: #11488b;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border: 2px solid white;
+    margin:4px;    
+    border-radius: 20px;
+}
+
+.gitHubButton {
+    flex:1;
+    background-color: #292929;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    margin:4px;
+    border-radius: 20px;
+}
+
+.tourButton {
+    flex:1;
+    background-color: #11488b;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border: 2px solid white;
+    margin:4px;
+    border-radius: 20px;
 }
 
 .noSelect {
@@ -145,4 +188,5 @@
           -ms-user-select: none; /* Internet Explorer/Edge */
               user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome, Edge, Opera and Firefox */
-  }
+}
+

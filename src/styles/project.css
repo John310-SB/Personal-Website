@@ -1,0 +1,85 @@
+.projectContainer {
+    display: grid;
+    width: 100%;
+    height: 180vh;
+    grid-template-areas: 
+    "cr"
+    "personal"
+    "cashier";
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.cardRealm {
+    grid-area: cr;
+    background-color: #000;
+    border-top: 8px solid #000;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.personal {
+    grid-area: personal;
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.cashier {
+    grid-area: #000;
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.crImages {
+    height: 60vh;
+    width: auto;
+}
+
+.descriptionContainer {
+    background-color: #ccc;
+    width: 100%;
+    margin: 2vw;
+    border-radius: 25px;
+}
+
+.projectTitles {
+    text-align: center;
+    margin:8px;
+    padding:6px;
+    background-color: #969696;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.descTitle {
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-decoration: underline solid #000;
+}
+
+.projectDescription {
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.deployButton {
+    text-align: center;
+    padding:8px;
+    background-color: #3f81ed;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.deployButton:hover {
+    cursor: pointer;
+}
