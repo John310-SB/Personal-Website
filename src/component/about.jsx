@@ -25,7 +25,6 @@ import redux from '../assets/redux.png';
 import ts from '../assets/ts.png';
 import vs from '../assets/vs.png';
 import vsCode from '../assets/vscode.png';
-import vue from '../assets/vue.png';
 import xd from '../assets/xd.png';
 import surf from '../assets/surf.png';
 import travel from '../assets/travel.png';
@@ -134,10 +133,6 @@ function About() {
                 <div className='imageText'>
                     <img className='skillIcon' src={react} alt="css" />
                     <div className='iconText'>React Native</div>
-                </div>
-                <div className='imageText'>
-                    <img className='skillIcon' src={vue} alt="css" />
-                    <div className='iconText'>Vue</div>
                 </div>
                 <div className='imageText'>
                     <img className='skillIcon' src={angular} alt="css" />
