@@ -108,7 +108,7 @@ function About() {
         <div className='answer2'>
             &nbsp; &nbsp; &nbsp; &nbsp; Out of highschool I knew that I wanted to become an electrician.
             I pursued a career in commercial electrical and learned as much as I could, everyday putting the hard hours of work to perfect my craft.
-            After 4 years I started to notice certain trends in the construction industry.  The most impactful trend I noticed was that the
+            After 4 years I started to notice certain trends in the construction industry.  The most impactful trend I noticed was the
             goal to take the engineering part of electrical work out of the electricians hands.  When I started we had to do
             load calculations and design systems that could handle the output needed.  When I left I felt more of an installer than an electrician, much of the
             thought was taken out of the work, and problem solving was no longer an attribute needed in the electrical trade.  <br></br><br></br>
