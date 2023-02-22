@@ -7,7 +7,7 @@ import CR1 from '../assets/CR1.PNG';
 import CR2 from '../assets/CR2.PNG';
 import CR3 from '../assets/CR3.PNG';
 import persWeb from '../assets/personalSite.png';
-import cash from '../assets/cash-dribbble.gif'
+import cash from '../assets/team.png'
    
 function Projects (){  
     const { value } = useSelector((state) => state.tour);
@@ -54,13 +54,13 @@ function Projects (){
             </div>
         </div>
         <div className='cashier'>
-            <img className="crImages" src={cash} alt="Card Realm Image" />            
+            <img className="crImages2" src={cash} alt="Card Realm Image" />            
             <div className='descriptionContainer'>
-                <div className='projectTitles'>Cashier System</div>
+                <div className='projectTitles'>Team Generator</div>
                 <div className='descTitle'>Description</div>
-                <div className='projectDescription'>User can create an interactive checkout system to accurately calculate a clients subtotal before checkout.</div>
+                <div className='projectDescription'>User's can input names and amount of teams. Then they can generate random teams.</div>
                 <div className='descTitle'>Contributions</div>
-                <div className='projectDescription'>Utilized Angular and Angular Routing.</div>
+                <div className='projectDescription'>Utilized Angular, Semantic CSS, and Typescript.</div>
                 <div className='deployButton' onClick={()=>{window.open("https://github.com/John310-SB")}}>View on Github</div>
             </div>
         </div>

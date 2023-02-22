@@ -39,6 +39,13 @@
     width: auto;
 }
 
+.crImages2 {
+    height: 60vh;
+    width: auto;
+    -webkit-filter: invert(1);
+   filter: invert(1);
+}
+
 .descriptionContainer {
     background-color: #ccc;
     width: 100%;
@@ -83,3 +90,4 @@
 .deployButton:hover {
     cursor: pointer;
 }
+
