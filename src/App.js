@@ -8,22 +8,19 @@ import Contact from './component/contact';
 //Redux imports
 import { useSelector, useDispatch } from 'react-redux';
 import { setFalse } from './redux/tour';
-import { useNavigate } from 'react-router-dom';
 //CSS Import
 import './App.css';
 
 
 function App() {
-  const navigate = useNavigate();
   // Gets Redux Tour State
   const { value } = useSelector((state) => state.tour);
   // Allows use of Redux functions
   const dispatch = useDispatch();
   //function to stop guided tour
   function stopTour() {
-    navigate('/', { replace: true });
     dispatch(setFalse());
-    window.location.reload(false);
+    window.location.reload(true);
     return;
   }
 
