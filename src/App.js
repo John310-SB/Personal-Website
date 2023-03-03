@@ -20,7 +20,7 @@ function App() {
   //function to stop guided tour
   function stopTour() {
     dispatch(setFalse());
-    window.location.reload(true);
+    window.location.replace("https://ikazosinhoj.com/");
     return;
   }
 
